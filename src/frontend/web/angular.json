@@ -3,7 +3,7 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "47fd06bc-ef31-49a4-aa58-6b1b75a258bd"
+    "analytics": "195a9822-66e9-479b-81ab-01795ec124dd"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -11,7 +11,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -23,7 +23,7 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "sass",
+            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -31,8 +31,7 @@
               }
             ],
             "styles": [
-              "src/custom-theme.scss",
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",
